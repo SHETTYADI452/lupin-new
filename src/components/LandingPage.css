@@ -1,0 +1,53 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .title h1 {
+    font-size: 2em;
+  }
+  
+  .title h2 {
+    font-size: 1.5em;
+  }
+  
+  .tests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .test-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .test-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .test-description {
+    overflow: hidden;
+  }
+  
+  .test-description.expanded {
+    max-height: none;
+  }
+  
+  .test-description button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
